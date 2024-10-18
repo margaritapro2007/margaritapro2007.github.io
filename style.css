@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Цвет фона */
+}
+
+.container {
+    text-align: center;
+}
+
+.nickname {
+    margin-bottom: 20px;
+    font-size: 2.5em; /* Размер шрифта */
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF97BB; /* Цвет кнопок */
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #DD80CC; /* Цвет кнопок при наведении */
+}
+
+.profile-pic {
+    margin-top: 20px;
+}
+
+.profile-pic img {
+    width: 300px; /* Ширина изображения */
+    height: 300px; /* Высота изображения */
+    border-radius: 50%; /* Круглая форма */
+    object-fit: cover; /* Обрезка изображения */
+}
