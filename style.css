@@ -6,7 +6,9 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Цвет фона */
+    background-image: url('./img/poco.jpg'); /* Укажите имя вашего изображения */
+    background-size: cover; /* Масштабирование изображение, чтобы заполнить весь фон */
+    background-position: center; /* Центрирование изображения */
 }
 
 .container {
@@ -19,23 +21,29 @@ body {
 }
 
 .buttons {
-    margin-bottom: 20px;
+    margin-top: 20px; /* Дополнительный отступ сверху для кнопок */
 }
 
-button {
+.button {
     margin: 0 10px;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    background-color: #FF97BB; /* Цвет кнопок */
+    background-color: #6A5ACD; /* Цвет кнопок */
     color: white;
-    transition: background-color 0.3s;
+    text-decoration: none; /* Убираем подчеркивание */
+    transition: background-color 0.3s, transform 0.2s; /* Добавлено свойство для анимации при наведении */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-button:hover {
-    background-color: #DD80CC; /* Цвет кнопок при наведении */
+.button:hover {
+    background-color: #483D8B; /* Цвет кнопок при наведении */
+}
+
+.button:active {
+    transform: scale(0.95); /* Уменьшение размера кнопки при нажатии */
 }
 
 .profile-pic {
