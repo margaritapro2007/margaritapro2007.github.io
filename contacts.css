@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-image: url('./img/haha.jpg'); /* Укажите имя вашего изображения */
+    background-size: cover; /* Масштабирование изображение, чтобы заполнить весь фон */
+    background-position: center; /* Центрирование изображения */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Заполнение высоты окна браузера */
+}
+
+
+
+h1 {
+    margin: 0;
+    font-size: 3em; /* Размер заголовка */
+}
+
+main {
+    max-width: 600px; /* Максимальная ширина */
+    margin: 20px auto; /* Центрирование */
+    padding: 20px; /* Внутренние отступы */
+    border-radius: 8px; /* Закругленные уголки */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+.contact-info,
+.social-media {
+    margin-bottom: 20px; /* Отступ между секциями */
+}
+
+h2 {
+    color: #ffffff; /* Цвет заголовков секций */
+    margin-top: 0; /* Убрали верхний отступ */
+}
+
+ul {
+    list-style-type: none; /* Убираем маркеры у списка */
+    padding: 0; /* Убираем внутренние отступы */
+}
+
+a {
+    color: #ffffff; /* Зеленый цвет для ссылок */
+    text-decoration: none; /* Убрать подчеркивание */
+}
+
+a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0; /* Вертикальные отступы */
+    background-color: #333; /* Темный цвет подвала */
+    color: white; /* Белый текст */
+    margin-top: 20px; /* Отступ сверху */
+}

@@ -1,0 +1,80 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('./img/0.jpg'); /* Укажите имя вашего изображения */
+    background-size: cover; /* Масштабирование изображение, чтобы заполнить весь фон */
+    background-position: center; /* Центрирование изображения */
+
+}
+header {
+   
+    color: white; 
+    text-align: center;
+    padding: 40px 0; 
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em; 
+}
+
+main {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+    max-width: 800px; 
+    margin: 20px auto; 
+    padding: 20px; 
+}
+
+.project-card {
+    background: white; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    margin: 15px; 
+    padding: 15px; 
+    flex: 1 1 300px; 
+    transition: transform 0.3s; 
+}
+
+.project-card:hover {
+    transform: scale(1.05); 
+}
+
+/* Добавление стиля для изображений */
+.project-card img {
+    max-width: 100%; /* Изображения не выходят за пределы карточки */
+    height: auto; /* Поддерживаем пропорции изображения */
+    border-radius: 8px; /* Закругленные углы для изображений */
+}
+
+h2 {
+    color: #333; 
+    margin-top: 0; 
+}
+
+p {
+    line-height: 1.5; 
+    margin-bottom: 10px; 
+}
+
+a {
+    display: inline-block; 
+    margin-top: 10px; 
+    padding: 10px 15px; 
+    background-color: #000000; 
+    color: white; 
+    text-decoration: none; 
+    border-radius: 5px; 
+}
+
+a:hover {
+    background-color: #000000; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0; 
+    background-color: #333; 
+    color: white; 
+    margin-top: 20px; 
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('./img/piska.jpg');; /* Путь к вашему изображению */
+    background-size: cover; /* Заполнение всего фона */
+    background-position: center; /* Центрирование изображения */
+    margin: 0;
+    padding: 0;
+    color: #fafafa; /* Темный текст */
+}
+
+header {
+    color: rgb(255, 255, 255); /* Белый текст */
+    text-align: center;
+    padding: 40px 0; /* Вертикальные отступы */
+}
+
+h1 {
+    margin: 0;
+    font-size: 3.5em; /* Размер заголовка */
+}
+
+main {
+    max-width: 800px; /* Максимальная ширина */
+    margin: 20px auto; /* Центрирование */
+    padding: 20px; /* Внутренние отступы */
+    background: rgba(0, 0, 0, 0.7); /* Полупрозрачный черный фон для основной секции */
+    border-radius: 8px; /* Уголки */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+}
+
+h2 {
+    color: #ffffff; /* Зеленый цвет для заголовков секций */
+    margin-top: 0; /* Убрали верхний отступ */
+}
+
+p {
+    line-height: 1.5; /* Высота строки для удобства чтения */
+    margin-bottom: 15px; /* Отступ между абзацами */
+}
+
